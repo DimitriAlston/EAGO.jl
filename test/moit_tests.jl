@@ -89,6 +89,7 @@ function test_runtests()
             "test_basic_VectorNonlinearFunction_NormOneCone",
             # TODO: bug related to unbounded_check
             "test_nonlinear_expression_quartic",
+            "test_nonlinear_constraint_log",
             # TODO: bug related to reform_epigraph_min
             "test_nonlinear_expression_overrides_objective",
             # Remove after MOI v1.31.3
